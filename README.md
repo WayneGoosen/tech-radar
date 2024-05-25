@@ -2,8 +2,8 @@
 
 ![Development](https://img.shields.io/badge/Release_Stage-Development-yellow?color=%23FF8C00
 )
-![Website Up](https://img.shields.io/website?url=https%3A%2F%2Ftechradar.waynegoosen.com%2Flog4brains%2F)
-![Website](https://img.shields.io/website?color=0ab9e6&style=flat-square&up_message=techradar.waynegoosen.com&url=https%3A%2F%2Fadr.waynegoosen.com%2Flog4brains%2F)
+![Website Up](https://img.shields.io/website?url=https%3A%2F%2Ftechradar.waynegoosen.com)
+![Website](https://img.shields.io/website?color=0ab9e6&style=flat-square&up_message=techradar.waynegoosen.com&url=https%3A%2F%2Ftechradar.waynegoosen.com)
 
 <img src="./images/website.png" alt="adr"/>
 
