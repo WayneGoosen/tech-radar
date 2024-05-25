@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="description" content="Wayne's Tech Radar: a tool to visualize technology choices, showcase new technologies and progress of adoption">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Wayne's Tech Radar</title>
+<link rel="shortcut icon" href="favicon.ico">
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="radar.js"></script>
+
+<link rel="stylesheet" href="radar.css">
+</head>
+
+<body>
+
+<svg id="radar"></svg>
+
+<script>
+fetch('./config.json').then(function(response) {
+  return response.json();
+}).then(function(data) {
+  radar_visualization({
+    svg_id: "radar",
+    width: 1450,
+    height: 1000,
+    colors: {
+      background: "#fff",
+      grid: '#dddde0',
+      inactive: "#ddd"
+    },
+    title: "Wayne's Tech Radar",
+    date: data.date,
+    quadrants: [
+      { name: "Languages & Frameworks" }, // Bottom right 0
+      { name: "Platforms" }, // Bottom left 1
+      { name: "Techniques" }, // Top right 2
+      { name: "Tools" }, // Top left 3
+    ],
+    rings: [
+      { name: "ADOPT", color: "#5ba300" }, // 0
+      { name: "TRIAL", color: "#009eb0" }, // 1
+      { name: "ASSESS", color: "#c7ba00" }, // 2
+      { name: "HOLD", color: "#e09b96" } // 3
+    ],
+    print_layout: true,
+    links_in_new_tabs: true,
+    // zoomed_quadrant: 0,
+    entries: data.entries
+  });
+}).catch(function(err) {
+  console.log('Error loading config.json', err);
+});
+</script>
+
+<table>
+<tr>
+<td>
+<h3>What is a Tech Radar?</h3>
+<p>
+  A tech radar is a tool for visualizing the status, maturity, and adoption of various technologies within an organization or project. It categorizes technologies into different quadrants (e.g., languages, tools, platforms, and techniques) and stages (e.g., adopt, trial, assess, hold), providing a clear picture of which technologies to invest in, experiment with, or avoid. This originates from <a href="https://www.thoughtworks.com/radar">Thoughtworks</a>. The four rings for my radar have the following semantics:
+</p>
+</p>
+
+<ul>
+<li><strong>ADOPT</strong> &mdash; Technologies and practices in the Adopt category are ready to be used in my projects. These have been thoroughly tested, proven to be stable, and have delivered substantial benefits in various production environments.</li>
+<li><strong>TRIAL</strong> &mdash; The Trial category contains technologies that I have decided deserve to be trialed. They have shown promise in real-world projects but may not yet be fully mature or widely adopted.</li>
+<li><strong>ASSESS</strong> &mdash; Technologies and practices in the Assess category are worth exploring with the goal of understanding how they will affect my projects. These are on my radar for potential future use.</li>
+<li><strong>HOLD</strong> &mdash; The Hold category includes technologies that I have decided are not the best fit for my projects. This might be due to stability issues, lack of community support, or better alternatives being available.</li>
+</ul>
+  
+
+</td><td>
+
+<h3>What is the purpose?</h3>
+
+<p>
+  This tech radar is used to track and manage the technologies utilized in my <a href="https://github.com/WayneGoosen">personal GitHub</a> projects. It helps in:
+
+  <ul>
+    <li>Visualizing Progress: Providing a clear snapshot of the current state and evolution of the technologies in use.</li>
+    <li>Guiding Decisions: Assisting in making informed decisions about which technologies to adopt, trial, or reassess.</li>
+    <li>Documenting Journey: Keeping a record of the technological journey, showing what has been tried, what is being used, and what has been put on hold.</li>
+  </ul>
+
+This tech radar ensures that I maintain a structured approach to technology adoption and usage, aligning with best practices and future goals for my personal projects. 
+</p>
+
+<p>
+Check out my <a href="https://blog.waynegoosen.com">Blog</a> or <a href="https://blog.waynegoosen.com">Architecture Decision Records (ADRs) website</a>.
+</p>
+
+<p>
+<em>Thanks to Zalando who provided the initial starting point, check out their <a href="https://github.com/zalando/tech-radar">open sourced Tech Radar</a></em>
+</p>
+</td></tr>
+</table>
+
+</body>
+
+<footer>
+  Built with ❤️ by<!-- --> <a href="https://twitter.com/dharmesh" target="_blank" rel="noreferrer">@dharmesh</a></div></div></div><div
+</footer>
+</html>

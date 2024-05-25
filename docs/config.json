@@ -1,0 +1,149 @@
+{
+  "date": "2024.05",
+  "entries": [
+      {
+          "quadrant": 0,
+          "ring": 1,
+          "label": "StreamLit",
+          "link": "https://docs.streamlit.io/",
+          "active": true,
+          "moved": 0
+      },
+      {
+          "quadrant": 3,
+          "ring": 0,
+          "label": "GitHub Copilot",
+          "link": "https://github.com/features/copilot",
+          "active": true,
+          "moved": 0
+      },
+      {
+          "quadrant": 2,
+          "ring": 2,
+          "label": "Retrieval-augmented generation (RAG)",
+          "link": "https://arxiv.org/abs/2005.11401v4",
+          "active": true,
+          "moved": 0
+      },
+      {
+          "quadrant": 2,
+          "ring": 2,
+          "label": "GitOps",
+          "link": "https://codefresh.io/learn/gitops/#:~:text=GitOps%20is%20an%20operational%20framework,infrastructure%20and%20manages%20software%20deployment.",
+          "active": true,
+          "moved": 0
+      },
+      {
+          "quadrant": 3,
+          "ring": 2,
+          "label": "Karpenter",
+          "link": "https://karpenter.sh/",
+          "active": true,
+          "moved": 0
+      },
+      {
+          "quadrant": 3,
+          "ring": 2,
+          "label": "Terrascan",
+          "link": "",
+          "active": true,
+          "moved": 0
+      },
+      {
+          "quadrant": 3,
+          "ring": 2,
+          "label": "Mistral",
+          "link": "https://docs.mistral.ai/getting-started/models/#mixtral-8x7b",
+          "active": true,
+          "moved": 0
+      },
+      {
+          "quadrant": 3,
+          "ring": 2,
+          "label": "OpenTofu",
+          "link": "https://opentofu.org/",
+          "active": true,
+          "moved": 0
+      },
+      {
+          "quadrant": 3,
+          "ring": 2,
+          "label": "Ollama",
+          "link": "",
+          "active": true,
+          "moved": 0
+      },
+      {
+          "quadrant": 0,
+          "ring": 2,
+          "label": "Score",
+          "link": "https://score.dev/",
+          "active": true,
+          "moved": 0
+      },
+      {
+          "quadrant": 0,
+          "ring": 2,
+          "label": "Devfile",
+          "link": "https://devfile.io/",
+          "active": true,
+          "moved": 0
+      },
+      {
+          "quadrant": 0,
+          "ring": 2,
+          "label": "Dev containers",
+          "link": "https://containers.dev/",
+          "active": true,
+          "moved": 0
+      },
+      {
+          "quadrant": 0,
+          "ring": 1,
+          "label": "Astro",
+          "link": "https://astro.build/",
+          "active": true,
+          "moved": 0
+      },
+      {
+          "quadrant": 0,
+          "ring": 2,
+          "label": "LangChain",
+          "link": "https://www.langchain.com/",
+          "active": true,
+          "moved": 0
+      },
+      {
+          "quadrant": 0,
+          "ring": 2,
+          "label": "SemanticKernel",
+          "link": "https://learn.microsoft.com/en-us/semantic-kernel/overview/?tabs=Csharp",
+          "active": true,
+          "moved": 0
+      },
+      {
+          "quadrant": 1,
+          "ring": 2,
+          "label": "Azure Kubernetes Service",
+          "link": "https://azure.microsoft.com/en-us/products/kubernetes-service",
+          "active": true,
+          "moved": 0
+      },
+      {
+          "quadrant": 1,
+          "ring": 2,
+          "label": "Rancher Desktop",
+          "link": "https://rancherdesktop.io/",
+          "active": true,
+          "moved": 0
+      },
+      {
+          "quadrant": 1,
+          "ring": 2,
+          "label": "Backstage",
+          "link": "https://backstage.io/",
+          "active": true,
+          "moved": 0
+      }
+  ]
+}
