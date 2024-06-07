@@ -1,6 +1,14 @@
 {
-  "date": "2024.05",
+  "date": "2024.06",
   "entries": [
+      {
+          "quadrant": 3,
+          "ring": 2,
+          "label": "hotjar",
+          "link": "https://www.hotjar.com/",
+          "active": true,
+          "moved": 0
+      },
       {
           "quadrant": 3,
           "ring": 2,
