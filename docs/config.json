@@ -2,6 +2,14 @@
   "date": "2024.05",
   "entries": [
       {
+          "quadrant": 3,
+          "ring": 2,
+          "label": "aztfexport",
+          "link": "https://azure.github.io/aztfexport/#1",
+          "active": true,
+          "moved": 0
+      },
+      {
           "quadrant": 0,
           "ring": 1,
           "label": "StreamLit",
