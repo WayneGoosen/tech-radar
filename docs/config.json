@@ -2,6 +2,14 @@
   "date": "2024.06",
   "entries": [
       {
+          "quadrant": 2,
+          "ring": 2,
+          "label": "Open Devin",
+          "link": " https://opendevin.github.io/OpenDevin/",
+          "active": true,
+          "moved": 0
+      },
+      {
           "quadrant": 3,
           "ring": 2,
           "label": "hotjar",
